@@ -5,6 +5,8 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+import "./tasks";
+
 interface Environment {
   GOERLI_RPC_URL: string;
   ETHEREUM_RPC_URL: string;
